@@ -1,0 +1,122 @@
+{
+	"geographie": [
+		{
+			"question": "Quelle ville marocaine n'est pas un port ?",
+			"reponse": "Marrakech"
+},
+
+
+		{
+			"question": "Le plat pays :",
+			"reponse": "Belgique"
+},
+
+		{
+			"question": "La perle des Antilles",
+			"reponse": "Haïti"
+},
+
+		{
+			"question": "Samba, carnaval, Gilberto Gil !",
+			"reponse": "Brésil"
+},
+
+		{
+			"question": "Quelle est la capitale du Brésil ?",
+			"reponse": "Brasilia"
+}
+
+
+],
+
+	"histoire": [
+
+		{
+			"question": "Quand a commencé la révolution française ?",
+			"reponse": "5 mai 1789"
+},
+
+
+		{
+			"question": "Quel homme d'état turc est nommé président de la République, le 29 octobre 1923 ?",
+			"reponse": "Mustapha Kemal dit 'Alatürk'"
+},
+
+		{
+			"question": "Durant quelle période se déroula la bataille de Stalingrad ?",
+			"reponse": "Juillet 1942 à février 1943"
+},
+
+		{
+			"question": "Comment s'appelle le ministre de la propagande d'Hitler,expert dans l'art de manipuler les foules ?",
+			"reponse": "Goebbels"
+},
+
+		{
+			"question": "Reine de Grande-Bretagne et d'Irlande, elle restaura le prestige monarchique.Elle fut impératrice des Indes en 1876.",
+			"reponse": "La reine Victoria"
+}
+
+],
+	"sciences": [
+		{
+			"question": "Comment s'appelle la table de laboratoire sur laquelle le chimiste fait ses expériences ?",
+			"reponse": "La paillasse"
+},
+
+		{
+			"question": "Qui découvrit la pénicilline ?",
+			"reponse": "Sir Alexandre Flemming"
+
+		},
+		{
+			"question": "Qu'est-ce qu'un réticulocyte ?",
+			"reponse": "Un jeune globule rouge"
+		},
+
+		{
+			"question": "Les composants des aliments absorbés et assimilés sont distribués aux différentes parties du corps par la lymphe.",
+			"reponse": "Faux"
+		},
+
+
+		{
+			"question": "Il a fait des recherches sur les bactéries du ver à soie, le choléra de la poule mais il est célèbre pour son vaccin contre la rage.",
+			"reponse": "Louis Pasteur (1822-1895)"
+		}
+
+
+	],
+	"litterature": [
+		{
+
+			"question": "Quel est l'auteur du roman Le Rouge et le Noir ?",
+			"reponse": "Stendhal"
+},
+
+		{
+
+			"question": "Qui a écrit le recueil de poésie Les Fleurs du mal?",
+			"reponse": "Charles Baudelaire"
+},
+		{
+
+			"question": "Qui a écrit Le Horla?",
+			"reponse": "Maupassant"
+},
+
+		{
+
+			"question": "Comment se prénommait Corneille ?",
+			"reponse": "Pierre"
+},
+		{
+
+			"question": "Qui est l'auteur de \"La chute\" ?",
+			"reponse": "Albert Camus"
+}
+
+
+	]
+
+}
