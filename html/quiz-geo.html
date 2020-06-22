@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link href="../css/quiz.css" rel="stylesheet">
+	<link href="../image/idea.png" rel="icon" type="image/png">
+	<title>Quiz</title>
+</head>
+
+<body>
+	<div class="header">
+		<svg id="hamburger" width="50" height="50px">
+
+			<line x1="0" ; y1="10" ; x2="40" ; y2="10" ; stroke="black" />
+			<line x1="0" ; y1="20" ; x2="40" ; y2="20" ; stroke="black" />
+			<line x1="0" ; y1="30" ; x2="40" ; y2="30" ; stroke="black" />
+		</svg>
+			<nav>
+				<div class="logo"><a href="index.html"><img src="../image/quiz.png"></a></div>
+				<ul class="menu">
+					<li class="menu-item">
+						<a href="index.html">Accueil</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Questions</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Articles</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">A-propos</a>
+					</li>
+				</ul>
+						
+			</nav>
+	</div>
+
+
+	<div id="quiz">
+		<h1>Quiz Geographie</h1>
+		<form>
+			<div class="question">
+				<p>Quelle ville marocaine n'est pas un port ?</p>
+				<div class="reponse">
+					<label for="q1r1">Casablanca</label>
+					<input class="rep" id="q1r1" name="question1" type="radio" value="1" checked>
+				</div>
+				<div class="reponse">
+					<label for="q1r2">Marrakech</label>
+					<input id="q1r2" name="question1" type="radio" value="2">
+				</div>
+				<div class="reponse">
+					<label for="q1r3">Agadir</label>
+					<input id="q1r3" name="question1" type="radio" value="3">
+				</div>
+			</div>
+			
+			
+			
+			
+		
+
+			
+			<div class="question">
+				<p>	Le plat pays :</p>
+				<div class="reponse">
+					<label for="q2r1">Luxembourg</label>
+					<input class="rep" id="q2r1" name="question2" type="radio" value="1" checked>
+				</div>
+				<div class="reponse">
+					<label for="q2r2">Pays-Bas</label>
+					<input id="q2r2" name="question2" type="radio" value="2">
+				</div>
+				<div class="reponse">
+					<label for="q2r3">Belgique</label>
+					<input id="q2r3" name="question2" type="radio" value="3">
+				</div>
+			</div>
+
+   
+   
+
+			<div class="question">
+				<p>La perle des Antilles :</p>
+				<div class="reponse">
+					<label for="q3r1">Cuba</label>
+					<input class="rep" id="q3r1" name="question3" type="radio" value="1" checked>
+				</div>
+				<div class="reponse">
+					<label for="q3r2">Haïti</label>
+					<input id="q3r2" name="question3" type="radio" value="2">
+				</div>
+				<div class="reponse">
+					<label for="q3r3">Bahamas</label>
+					<input id="q3r3" name="question3" type="radio" value="2">
+				</div>
+			</div>
+			
+
+			
+			
+			
+			<div class="question">
+				<p>Samba, carnaval, Gilberto Gil !</p>
+				<div class="reponse">
+					<label for="q4r1">Guyana</label>
+					<input class="rep" id="q4r1" name="question4" type="radio" value="1" checked>
+				</div>
+				<div class="reponse">
+					<label for="q4r2">Brésil</label>
+					<input id="q4r2" name="question4" type="radio" value="2">
+				</div>
+				<div class="reponse">
+					<label for="q4r3">Colombie</label>
+					<input id="q4r3" name="question4" type="radio" value="3">
+				</div>
+			</div>
+
+			<div class="question">
+				<p>Quelle est la capitale du Brésil ?
+</p>
+				<div class="reponse">
+					<label for="q5r1">Rio de Janeiro</label>
+					<input class="rep" id="q5r1" name="question5" type="radio" value="1" checked>
+				</div>
+				<div class="reponse">
+					<label for="q5r2">Brasilia</label>
+					<input id="q5r2" name="question5" type="radio" value="2">
+				</div>
+				<div class="reponse">
+					<label for="q5r3">Sao Paulo</label>
+					<input id="q5r3" name="question5" type="radio" value="2">
+				</div>
+			</div>
+			
+			
+			
+		<input id="submitBtn" type="submit" value="Envoyer mes réponses">
+		</form>
+	</div>
+	<script src="../js/ajax.js" type="application/javascript"></script>
+	<script src="../js/quiz.js" type="application/javascript"></script>
+</body>
+
+</html>

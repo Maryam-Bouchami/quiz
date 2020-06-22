@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link href="../css/quiz.css" rel="stylesheet">
+	<link href="../image/idea.png" rel="icon" type="image/png">
+	<title>Quiz</title>
+</head>
+
+<body>
+	<div class="header">
+		<svg id="hamburger" width="50" height="50px">
+
+			<line x1="0" ; y1="10" ; x2="40" ; y2="10" ; stroke="black" />
+			<line x1="0" ; y1="20" ; x2="40" ; y2="20" ; stroke="black" />
+			<line x1="0" ; y1="30" ; x2="40" ; y2="30" ; stroke="black" />
+		</svg>
+			<nav>
+				<div class="logo"><a href="index.html"><img src="../image/quiz.png"></a></div>
+				<ul class="menu">
+					<li class="menu-item">
+						<a href="index.html">Accueil</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Questions</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">Articles</a>
+					</li>
+					<li class="menu-item">
+						<a href="#">A-propos</a>
+					</li>
+				</ul>
+						
+			</nav>
+	</div>
+
+
+	<div id="quiz">
+		<h1>Quiz Littérature</h1>
+		<form>
+			<div class="question">
+				<p>Quel est l'auteur du roman Le Rouge et le Noir ?</p>
+				<div class="reponse">
+					<label for="q1r1">Victor Hugo</label>
+					<input class="rep" id="q1r1" name="question1" type="radio" value="1" checked>
+				</div>
+				<div class="reponse">
+					<label for="q1r2">Stendhal</label>
+					<input id="q1r2" name="question1" type="radio" value="2">
+				</div>
+				<div class="reponse">
+					<label for="q1r3">Maupassant</label>
+					<input id="q1r3" name="question1" type="radio" value="3">
+				</div>
+			</div>
+			
+			<div class="question">
+				<p>Qui a écrit le recueil de poésie Les Fleurs du mal?</p>
+				<div class="reponse">
+					<label for="q2r1">Paul Verlaine</label>
+					<input class="rep" id="q2r1" name="question2" type="radio" value="1" checked>
+				</div>
+				<div class="reponse">
+					<label for="q2r2">Charles Baudelaire</label>
+					<input id="q2r2" name="question2" type="radio" value="2">
+				</div>
+				<div class="reponse">
+					<label for="q2r3"> Arthur Rimbaud
+</label>
+					<input id="q2r3" name="question2" type="radio" value="3">
+				</div>
+			</div>
+
+			<div class="question">
+				<p>Qui a écrit Le Horla?</p>
+				<div class="reponse">
+					<label for="q3r1">Maupassant</label>
+					<input class="rep" id="q3r1" name="question3" type="radio" value="1" checked>
+				</div>
+				<div class="reponse">
+					<label for="q3r2">Balzac</label>
+					<input id="q3r2" name="question3" type="radio" value="2">
+				</div>
+				<div class="reponse">
+					<label for="q3r3">Hugo</label>
+					<input id="q3r3" name="question3" type="radio" value="2">
+				</div>
+			</div>
+			<div class="question">
+				<p>Comment se prénommait Corneille ?</p>
+				<div class="reponse">
+					<label for="q4r1">Jean-Baptiste
+</label>
+					<input class="rep" id="q4r1" name="question4" type="radio" value="1" checked>
+				</div>
+				<div class="reponse">
+					<label for="q4r2">Pierre</label>
+					<input id="q4r2" name="question4" type="radio" value="2">
+				</div>
+				<div class="reponse">
+					<label for="q4r3">Charles</label>
+					<input id="q4r3" name="question4" type="radio" value="3">
+				</div>
+			</div>
+
+			<div class="question">
+				<p>Qui est l'auteur de "La chute" ?</p>
+				<div class="reponse">
+					<label for="q5r1">Jean-Paul Sartre</label>
+					<input class="rep" id="q5r1" name="question5" type="radio" value="1" checked>
+				</div>
+				<div class="reponse">
+					<label for="q5r2"> Hervé Bazin</label>
+					<input id="q5r2" name="question5" type="radio" value="2">
+				</div>
+				<div class="reponse">
+					<label for="q5r3">Albert Camus</label>
+					<input id="q5r3" name="question5" type="radio" value="2">
+				</div>
+			</div>
+			
+			
+			
+		 <input id="submitBtn" type="submit" value="Envoyer mes réponses">
+		</form>
+	</div>
+	<script src="../js/ajax.js" type="application/javascript"></script>
+	<script src="../js/quiz.js" type="application/javascript"></script>
+</body>
+
+</html>

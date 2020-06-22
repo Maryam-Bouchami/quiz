@@ -1,0 +1,185 @@
+@font-face{
+font-family: "PatrickHand";
+ src: url("PatrickHand-Regular.ttf") format("truetype");
+      
+}
+body{
+	font-family: PatrickHand ;
+}
+#quiz {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin-left: 10%;
+	align-items: center;
+	background-color: Gold;
+	padding: 10%;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+  
+	color: DarkBlue;
+	
+}
+
+.reponse {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.question{
+	margin-bottom: 10px;
+}
+.question p {
+	color: DarkBlue;
+	font-weight: bold;
+}
+
+#submitBtn {
+	background-color: rgba(0, 0, 139, 0.7);
+	border-color: rgba(0, 0, 139, 0.5);
+	width:max-content;
+    margin: auto;
+}
+
+#submitBtn:hover {
+	background-color: DarkBlue;
+}
+
+.error {
+	font-weight: bold;
+	color: red;
+}
+
+#rejouer {
+	background-color: rgba(0, 0, 0, 0.7);
+	border-color: rgba(0, 0, 0, 0.5);
+	width:max-content;
+	margin-top: 3%;
+}
+#rejouer:hover{
+	background-color: black;
+}
+#submitBtn,
+#rejouer {
+	color: gold;
+	border-radius: 12px;
+		height: 40px;
+	font-family: PatrickHand ;
+	font-size: 1.5em;
+}
+.header{
+	width: 100%; 
+	display: flex;
+    flex-direction: column;
+}
+nav{
+	   width:80%;
+		margin-left: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+.menu-item{
+	display: inline-block;
+	width: 80px;
+	height:45px;;
+	display:inline-flex;
+	background-color: crimson;
+}
+.menu-item a{
+	text-decoration: none;
+	color:gold;
+	margin: auto;
+}
+.menu-item:hover{
+	background-color: darkblue;
+}
+.menu{
+	list-style: none;
+}
+#hamburger{
+	align-self: flex-end;
+}
+
+.choix-domaine{
+	width: 100%;
+}
+.sous-bloc{
+	display: flex;
+	justify-content: space-between;
+}
+.sous-bloc a {
+	text-decoration: none;
+	color: crimson;
+}
+.sous-bloc a:hover{
+	color: darkblue;
+}
+.cliquable{
+	display: inline-flex;
+	
+	flex-direction: column
+}
+.sous-bloc a span{
+text-align: center;
+font-size: 1.25em;
+}
+
+
+p{
+	font-size: 1.25em;
+}
+
+@media(min-width:768px){
+	#hamburger{
+		display:none;
+		
+	}
+	h1{
+		font-size:2.5em;
+	}
+}
+@media(max-width: 767.98px){
+	#rejouer{
+		width:70%;
+	}
+.menu .menu-item{
+	display: flex;
+	background-color: transparent;
+	color:black;
+	width:100%;
+	height:30px;
+}
+.menu .menu-item a{
+	
+	margin: auto;
+	color: crimson;
+}
+
+.menu .menu-item:hover{
+background-color: darkblue;
+}	
+	.menu{
+		width: 100%;
+		display: none;
+	}	
+	.sous-bloc{
+		flex-direction: column;
+	}
+	.sous-bloc a{
+		margin: auto;
+	}
+
+}
+@media(max-width: 575.98px){
+
+		.sous-bloc a span{
+		font-size: 0.95em;
+}
+}
